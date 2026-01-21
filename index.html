@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manyu Sun - Academic Homepage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .contact-info {
+            background: #f1f8ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #3498db;
+        }
+        .contact-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact-item span {
+            margin-right: 10px;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .keyword {
+            background: #e3f2fd;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #1565c0;
+            border: 1px solid #bbdefb;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .skill-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eee;
+        }
+        .skill-title {
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        .skill-content {
+            font-size: 14px;
+            color: #666;
+        }
+        .edu-info {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .edu-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        .edu-detail {
+            color: #555;
+            margin: 5px 0;
+        }
+        .edu-time {
+            color: #777;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            .keywords {
+                gap: 8px;
+            }
+            .keyword {
+                padding: 5px 12px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manyu Sun</h1>
+            <p style="font-size: 18px; color: #555;">
+                Junior Student | Computer Science and Technology | Nanjing Normal University
+            </p>
+        </header>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📍</span> Nanjing, China
+            </div>
+            <div class="contact-item">
+                <span>🏫</span> Nanjing Normal University
+            </div>
+            <div class="contact-item">
+                <span>📧</span> 14220208@njnu.edu.cn
+            </div>
+            <div class="contact-item">
+                <span>🔗</span> GitHub: <a href="https://github.com/SunManyu" target="_blank">SunManyu</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a junior-year student pursuing a Bachelor of Science in Computer Science and Technology at Nanjing Normal University. 
+                My academic journey is driven by a profound interest in cutting-edge technologies that are shaping our digital future.
+            </p>
+            
+            <div style="margin: 20px 0;">
+                <h3 style="color: #2c3e50; font-size: 18px;">Research Interests</h3>
+                <div class="keywords">
+                    <span class="keyword">Artificial Intelligence</span>
+                    <span class="keyword">Natural Language Processing</span>
+                    <span class="keyword">Computer Vision</span>
+                    <span class="keyword">Deep Learning</span>
+                    <span class="keyword">Machine Learning</span>
+                </div>
+            </div>
+            
+            <p>
+                Currently, I am actively studying advanced deep learning methodologies and participating in research projects 
+                that explore the applications of AI in real-world scenarios. I am passionate about leveraging computational 
+                techniques to solve complex problems and contribute to technological innovation.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="edu-info">
+                <div class="edu-title">
+                    Nanjing Normal University
+                </div>
+                <div class="edu-detail">
+                    Bachelor of Science in Computer Science and Technology
+                </div>
+                <div class="edu-time">
+                    Expected Graduation: 2027 | Current: Junior Year
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-title">Programming Languages</div>
+                    <div class="skill-content">Python, Java, C++</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-title">Frameworks & Libraries</div>
+                    <div class="skill-content">PyTorch, TensorFlow</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-title">Development Tools</div>
+                    <div class="skill-content">Git, Linux, VS Code</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Last Updated: January 2026</p>
+            <p>This page serves as my academic homepage for professional and research purposes.</p>
+        </footer>
+    </div>
+</body>
+</html>
